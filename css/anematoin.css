@@ -1,0 +1,68 @@
+body{
+    background: #222;
+}
+
+
+.a{
+    border: solid #222 10px;
+height: 100px;
+width: 100px;
+animation-name: y;
+animation-duration: 2s;/*
+
+يمكن أن تحتوي خاصية animation-direction على القيم التالية:
+
+normal- يتم تشغيل الرسوم المتحركة بشكل طبيعي (للأمام). هذا هو الوضع الافتراضي.
+reverse- يتم تشغيل الرسوم المتحركة في الاتجاه المعاكس (إلى الخلف)
+alternate - يتم تشغيل الرسوم المتحركة للأمام أولاً، ثم للخلف
+alternate-reverse- يتم تشغيل الرسوم المتحركة للخلف أولاً، ثم للأمام*/
+animation-delay: 2s;
+animation-iteration-count: infinite;/*animation-iteration-countعدد المرات التي يجب تشغيل الرسوم المتحركة فيها*/
+animation-direction: reverse;
+border-radius:50px 50px 50px 50px ;
+animation-timing-function: linear; /* animation-timing-function على القيم التالية:
+
+ease- يحدد الرسوم المتحركة ببداية بطيئة، ثم سريعة، ثم تنتهي ببطء (هذا هو الافتراضي)
+linear- يحدد الرسوم المتحركة بنفس السرعة من البداية إلى النهاية
+ease-in- يحدد الرسوم المتحركة ذات البداية البطيئة
+ease-out- يحدد الرسوم المتحركة بنهاية بطيئة
+ease-in-out- يحدد الرسوم المتحركة ببداية ونهاية بطيئة
+cubic-bezier(n,n,n,n)- يتيح لك تحديد قيمك الخاصة في دالة cube-bezier*/
+-o-animation-fill-mode: none;/* animation-fill-mode على القيم التالية:
+
+none- القيمة الافتراضية. لن تُطبّق الرسوم المتحركة أي أنماط على العنصر قبل أو بعد تنفيذه.
+forwards- سيحتفظ العنصر بقيم النمط التي تم تعيينها بواسطة الإطار الرئيسي الأخير (يعتمد على اتجاه الرسوم المتحركة وعدد تكرارات الرسوم المتحركة)
+backwards- سيحصل العنصر على قيم النمط التي تم تعيينها بواسطة الإطار الرئيسي الأول (يعتمد على اتجاه الرسوم المتحركة)، ويحتفظ بها أثناء فترة تأخير الرسوم المتحركة
+both- ستتبع الرسوم المتحركة القواعد لكل من الأمام والخلف، مما يؤدي إلى توسيع خصائص الرسوم المتحركة في كلا الاتجاهين*/
+}
+@keyframes y{/* يجب ان يكون للانيميشن نيم والكي فريم نفس الاسم*/
+0%{
+  translate: 0 0;
+  background-color: aqua;
+  rotate: 10deg;
+}
+25%{
+    translate: 0 500px; /*على اي اتجاه تتحرك وشقد تتحرك*/
+    background-color: blueviolet;
+    rotate: 270deg;
+}
+50%{
+translate: 400px 500px;
+background-color: chartreuse;
+rotate: 180deg;
+}
+75%{
+    translate: 400px 0;
+    background-color: brown;
+    rotate: 240deg;  /*الدوران*/
+}
+100%{
+translate: 0 0;
+background-color: blue;
+rotate: 130deg;
+}
+
+}
+
+
+

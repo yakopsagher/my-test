@@ -1,0 +1,43 @@
+.one{
+background-color: black;
+visibility: hidden;/*اخفاء العنصر*/
+}
+.tow{
+background-color: aqua;
+display:none ;/*حذف العنصر*/
+}
+.three{
+    opacity: 0.8; /*الشفافية*/
+}
+                          /*الفرق بين inlin block*/
+
+/*
+property|    default width  | new line|width,hight
+________|___________________________________
+block   |100%of perent width|   true  | respect
+inline  |fit content        |   fals  |no respect
+*/
+span,p{
+    background-color: red;
+}
+span{
+    width: 100px;
+    height: 100px;
+    margin: 20px;  /*بياخد مارجين بس مو بكل الا تجاهات*/
+
+display: block; 
+
+}
+p{
+    width: 100px;
+    height: 100px;
+    margin: 20px; 
+display: inline;/*بيتحول من بلوك ل ابنلابن*/
+}
+div{
+background-color: aqua;
+width: 100px;
+height: 100px;
+display: inline-block; /*بتخليه اينلاين بس مع خصائص البلوك*/
+
+}

@@ -1,0 +1,18 @@
+div{
+   width: 600px;
+   height: 500px;
+    background-image: url(../image/b.jpg);
+    background-size: contain;  /* ما بيتغير حجم الصورة*/
+    background-repeat: no-repeat;
+}
+div:hover{     /*  اذا لمسناالصورة تطلع صورة تانية */
+    background-image: url(../image/d.jpg);
+    background-repeat: no-repeat;
+}
+div:active{  /*اذا كبسنا عالصورة تطلع صورة تانية*/
+    background-color: blue;
+
+}
+div:link{
+    background-color: brown;
+}

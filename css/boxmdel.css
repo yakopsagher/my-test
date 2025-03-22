@@ -1,0 +1,32 @@
+h1{
+     border: solid red 10px;  /*  شكل الصندوق */
+    width: 60px;
+     height: 50px;
+    padding: 10px 10px 10px 10px; /*بعد حواف الصندوق عن الكلام من الداخل */
+     margin: auto;/* بعد الصندوق عن حواف واجهة المستخدم */
+background: red;
+border-radius: 40px 0px 40px 0px;    /*حواف البوكس*/
+
+}
+.dev{
+    background: red;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 1px 12px 5px blue inset;
+    /*box shadow:h_shadow , v_shadow , blur , spread color , inset */
+    /*
+    blur:الضبابية
+    spread:الانتشار 
+    inset:    بتساوي الظل من داخل الصندوق
+    */
+}
+.div{
+    background:red;
+     max-width: 20px;     /* اكبر عرض للبوكس*/
+    min-width:20px ;    /*  اصغر عرض للبوكس*/                          /*ملاحظة 
+                                                                              اذا ما حطينا هالشغلات رح يتمدد البوكس مع اي كلام بنكتبو*/
+    max-height:20px ;   /*  اقل طول للبوكس */
+    min-height:40px ;   /*  اكبر طول للبوكس*/
+} 
+    

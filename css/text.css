@@ -1,0 +1,30 @@
+p{
+
+text-decoration: red underline solid;                /*ديكور*/
+
+    text-align: center;            /*تحريك الكلام*/
+
+direction: ltr,rtl;            /*كيفية بدء الكلام وهو علا نوعين من اليسار لليمين والعكس*/
+
+text-transform:capitalize;         /*نكبير او تصغير الحروف*/
+
+letter-spacing: 1px;      /*مسافات بين الحروف*/
+
+word-spacing: 1px;      /*مسافة بين الكلمات*/
+
+line-height: 2px;    /*بعد بين الاسطر*/
+
+text-shadow: 10px 12px 5px red;
+
+white-space: pre;   /*كل الفراغات واي شيئ يحصل بالكونسول يطبع*/
+
+                      /*الخطوط*/
+
+
+
+    
+
+
+
+
+}

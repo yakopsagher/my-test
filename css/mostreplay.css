@@ -1,0 +1,34 @@
+.perent{
+    float: left;
+    background-color: aqua;
+    height:  100%;
+    width: 100%;
+    padding: 5px;
+}
+.one{
+height: 50px;
+width: 33.3%;
+background-color: brown;
+float: left;        /*بتخلي الشكل العامودي يصير افقي*/
+position: sticky;   /*  بتخلي الخيارات تضل معك طول ما انت بالويب متل تبع الفيس*/
+top: 0; /*تضل الخيارات للنقطة البدك ياها منل اذا حطينا 0 يضل لاخير الويب*/
+
+}
+.tow{
+height: 50px;
+width: 33.3%;
+background-color: blueviolet;
+float:left;
+position: sticky;    
+top: 0;
+
+}
+.three{
+height: 50px;
+width: 33.3% ;
+background-color: burlywood;
+float: left;
+position: sticky;
+top: 0%;
+
+}

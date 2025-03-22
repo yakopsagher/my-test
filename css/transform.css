@@ -1,0 +1,18 @@
+.a{
+height: 80px;
+width: 80px;
+background-color: brown;
+transform: scale(1);  /*divتكبير حجم ال*/
+}
+.b{
+    height: 80px;
+width: 80px;
+background-color: red;
+transform: rotateY(70px);  /*divتدوير ال*/
+}
+.c{
+    height: 80px;
+width: 80px;
+background-color: blue;
+transform:skew(30deg,20deg) ; /*الانحراف*/
+}

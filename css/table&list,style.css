@@ -1,0 +1,36 @@
+table{
+  width: 100%;
+border-spacing: 1xp;
+
+    
+}
+
+
+
+th{
+background-color: aqua;   
+height: 40px;
+
+
+
+}
+td{
+    background-color: blue;
+    height: 40px;
+    text-align:left; /* موقع الكلام بكل صندوق علئ محور ال x*/
+    vertical-align:middle; /*yموقع الكلام علئ محور ال*/
+    border: 4xp solid black;
+}    
+                                      /*list style*/
+ol,ul{
+list-style-type: circle;  /*تغيير  شكل الاعداد*/
+list-style-position: inside;   /*listبتخلي  النقاط جوا ال*/
+list-style-image: url(/image/y.jpg);  /*listصورة بال*/
+}
+li{
+background-color: rgb(255, 208, 127);
+
+}
+
+
+

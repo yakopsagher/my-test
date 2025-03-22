@@ -1,0 +1,15 @@
+a{
+    color: black;
+text-decoration: none; /*بنشيل الخط يلي تحت اللينك*/
+font-size: 30px;
+
+}
+a:link{  /*اذا ما زرت اللينك يتغير لونو */
+    color: aqua; 
+}
+a:hover{   /*اذا ضغطت علئ اللينك يتغير لونو*/
+    color:blue;
+}
+a:visited{ /*اذا  زرت اللينك يتغير لونو */
+    color:red;
+}
