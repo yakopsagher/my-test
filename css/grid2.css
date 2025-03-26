@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+    padding: 10px;
+
+    display: grid;   
+
+grid-template-columns: repeat(auto-fill,minmax(100px,auto)); /**/
+grid-template-rows:minmax(100px,auto); /*تحدد ارتفاع كل صف*/
+row-gap: 10px;/*مسافات بين الصفوف*/
+column-gap:10px;/*مسافات بين الاعمدة*/
+gap: 10px 10px; /*اختصار للتنين يلي فوق*/
+} 
+
+
+div p {
+    background-color: gold;
+
+
+}

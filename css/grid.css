@@ -1,0 +1,23 @@
+div{
+    background-color: red;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    display: grid;   /*minmax(min,max) */      
+grid-template-columns:repeat(4,auto); /*rebeat(الحجم ,عدد الاعمدة*/
+
+gap: 10px;
+} 
+
+
+div p {
+    background-color: gold;
+
+
+}
+div .a{
+background-color: blue;
+ grid-column-start: 1;/*بداية الدمج*/
+ grid-column-end: 3;/*نهاية الدمج*/
+
+}

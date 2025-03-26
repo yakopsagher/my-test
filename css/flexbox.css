@@ -1,0 +1,107 @@
+.perent {
+
+background-color: gold;
+padding: 10px;
+display: inline-flex;/*بتساوي الخلفية على قد العناصر*/
+flex-direction: row; /*تحديد شكل العناصر عامودي او افقي*/
+flex-wrap: wrap;/*بتخلي العناصر جوا الاب حتى لو صغرنا لشاشة*/
+
+}
+.perent p{
+    margin: 10px;
+    padding: 10px;
+}
+.one{
+background-color: blue;
+order: 2;  /* التحكم بترتيب العناصر*/
+
+}
+.tow{
+background-color: brown;
+order: 1;
+
+}
+.three{
+background-color: tomato;
+order: 0;
+
+}
+                /*eg2*/
+                /*
+if flex-direction==row
+==> justify-content ==>x
+align-items==>y
+align-content==>y
+
+if flex-directoin == column
+=> justify-content ==>y
+align-items==>x
+align-content==>x
+*/
+
+.father{
+background-color: gold;
+padding: 10px;
+height: 400px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+justify-content: center;    
+
+/*
+                justify-content:
+
+                center:بوضع العناصر المرنة في وسط الحاوية
+                flex-start: في بداية الحاوية (هذا هو الوضع الافتراضي)
+                flex-end: بوضع العناصر المرنة في نهاية الحاوية
+                space-around: (عناصر المرونة مع وجود مسافة (حولها
+                space-between: (عناصر المرونة مع وجود مسافة ( بينها
+                space-evenly: العناصر المرنة مع وجود مساحة متساوية حولها*/
+                  
+ align-items: stretch;               
+         align-content: flex-end;  /*تعمل فقط اذا كانت flex rab موجودة*/
+         
+         /*
+            
+         align-items:  ==>>
+center:بوضع العناصر المرنة في منتصف الحاوية
+flex-start:بوضع العناصر المرنة في أعلى الحاوية
+flex-end:بوضع العناصر المرنة في أسفل الحاوية
+stretch:بتمديد عناصر المرونة لملء الحاوية (وهذا يساوي "العادي" وهو الافتراضي)
+baseline:وضع العناصر المرنة في خط الأساس للحاوية
+
+ align-content :
+         
+ center:يتم تعبئة خطوط المرونة باتجاه مركز الحاوية
+stretch:تمتد خطوط المرونة لتشغل المساحة المتبقية من الحاوية
+flex-start: يتم تعبئة خطوط المرونة نحو بداية الحاوية
+flex-end:يتم تعبئة خطوط المرونة نحو نهاية الحاوية
+space-around:تكون المسافة بين خطوط المرونة متساوية، ولكن يتم ضبط المسافة قبل العنصر الأول
+space-between: تكون المسافة بين خطوط المرونة متساوية، ولكن العنصر الأول يكون متدفقًا مع الحافة
+space-evenly :  يتم توزيع خطوط المرونة بالتساوي في حاوية المرونة، مع وجود مساحة متساوية في الأعلى والأسفل وبين
+         
+         
+         */    
+                
+}
+.father p{
+    margin: 10px;
+    padding: 10px;
+}
+.a{
+background-color: blue;
+flex-grow: 1;  /*امتداد العناصر على عرض الشاشة بشكل متساوي */
+flex-shrink: 0;  /*تقلص العنصر عند تصغير الصفحة*/
+flex-basis: 100px; /*بتتحكم باالعرض فقط اذا كانت الflex-direction=row;*/
+}
+.b{
+background-color: brown;
+flex-grow: 1;
+flex-shrink: 1;
+}
+.c{
+background-color: tomato;
+
+flex-grow: 1;
+flex-shrink: 2;
+}
